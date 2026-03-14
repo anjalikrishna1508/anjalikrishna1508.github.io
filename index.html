@@ -1,121 +1,239 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Anjali Krishna Portfolio</title>
+<title>Anjali Krishna | QA Automation Engineer</title>|
 
 <style>
+
 body{
-font-family:Arial;
+font-family: Arial;
 margin:0;
-background:#f4f4f4;
+background:#0f172a;
+color:white;
 }
 
 header{
-background:#222;
-color:white;
 text-align:center;
-padding:30px;
+padding:60px 20px;
 }
-  
+
+header img{
+width:160px;
+border-radius:50%;
+border:3px solid #38bdf8;
+}
+
+h1{
+margin-top:15px;
+font-size:40px;
+}
+
+.subtitle{
+color:#94a3b8;
+}
 
 nav{
-background:#444;
 text-align:center;
-padding:10px;
+padding:15px;
+background:#020617;
 }
 
 nav a{
-color:white;
+color:#38bdf8;
 margin:15px;
 text-decoration:none;
 font-weight:bold;
 }
 
 section{
-padding:40px;
 max-width:900px;
 margin:auto;
-background:white;
-margin-top:20px;
+padding:50px 20px;
+}
+
+.card{
+background:#020617;
+padding:25px;
+margin:20px 0;
 border-radius:10px;
+}
+
+h2{
+color:#38bdf8;
+}
+
+.skills span{
+display:inline-block;
+background:#1e293b;
+padding:8px 14px;
+border-radius:20px;
+margin:6px;
+}
+
+button{
+background:#38bdf8;
+border:none;
+padding:10px 18px;
+border-radius:6px;
+cursor:pointer;
+font-weight:bold;
 }
 
 footer{
 text-align:center;
-background:#222;
-color:white;
-padding:20px;
-margin-top:20px;
+padding:30px;
+background:#020617;
+margin-top:40px;
+color:#94a3b8;
 }
-</style>
 
+</style>
 </head>
 
 <body>
 
 <header>
-<h1>Anjali Krishna M</h1>
-<img src="ANJALI KRISHNA_ PHOTOGRAPH.jpg" alt="Anjali Krishna" width="150" style="border-radius:50%;">
-  
-<p>Software Engineer | QA Automation Engineer | SDET</p>
+
+<img src="ANJALI KRISHNA_ PHOTOGRAPH.jpg">
+
+<h1>Anjali Krishna</h1>
+
+<p class="subtitle">
+Software Engineer | QA Automation | SDET
+</p>
+
+<p>Automation Engineer with 3 years of experience building scalable test frameworks using Selenium, Java, Cucumber, and TestNG.</p>
+
+<a href="resume.pdf"><button>Download Resume</button></a>
+
 </header>
 
 <nav>
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
 <a href="#projects">Projects</a>
+<a href="#experience">Experience</a>
 <a href="#contact">Contact</a>
 </nav>
 
 <section id="about">
+
 <h2>About Me</h2>
+
+<div class="card">
+
 <p>
-I am an MCA graduate and Software Engineer with around three years of experience in software quality engineering and test automation. My work focuses on building reliable automation solutions that help teams deliver high-quality software faster.
-
-I have hands-on experience developing automation frameworks using Java, Selenium WebDriver, TestNG, and Cucumber BDD. I also work with API testing tools such as Postman and REST Assured, and I am comfortable working within Agile development environments.
-
-My experience includes working across the full software development lifecycle, performing regression testing, maintaining automation suites, and supporting CI/CD workflows using Git and Maven. I have collaborated closely with development teams to identify issues early and ensure stable, reliable releases.
-
-I enjoy solving technical problems, improving testing efficiency through automation, and continuously learning new technologies. I am currently based in Dubai and actively seeking opportunities where I can contribute to building high-quality software products.
+I am a Software Engineer specializing in QA Automation and enterprise software quality engineering. My experience focuses on designing automation frameworks, improving test coverage, and ensuring stable software releases.
 </p>
+
+<p>
+I have hands-on experience working with Selenium WebDriver, Java automation frameworks, Cucumber BDD, TestNG, and API testing tools like Postman and REST Assured. I have also worked within Agile development environments collaborating closely with developers and product teams.
+</p>
+
+<p>
+Currently based in Dubai and open to opportunities in QA Automation, SDET, and Software Engineering roles.
+</p>
+
+</div>
+
 </section>
 
 <section id="skills">
-<h2>Skills</h2>
 
-<ul>
-<li>Selenium WebDriver</li>
-<li>Java Automation</li>
-<li>TestNG & Cucumber</li>
-<li>API Testing (Postman, REST Assured)</li>
-<li>Python</li>
-<li>Git & Maven</li>
-</ul>
+<h2>Tech Stack</h2>
+
+<div class="card skills">
+
+<span>Selenium WebDriver</span>
+<span>Java</span>
+<span>Python</span>
+<span>Cucumber BDD</span>
+<span>TestNG</span>
+<span>REST Assured</span>
+<span>Postman</span>
+<span>Git</span>
+<span>Maven</span>
+<span>Azure DevOps</span>
+<span>Jenkins</span>
+
+</div>
 
 </section>
 
 <section id="projects">
+
 <h2>Projects</h2>
 
-<p><b>Selenium Automation Framework</b><br>
-Automation framework using Selenium + Java + TestNG + POM.</p>
+<div class="card">
 
-<p><b>API Testing Automation</b><br>
-REST API automation using REST Assured.</p>
+<h3>Selenium Automation Framework</h3>
+
+<p>
+Developed a scalable automation framework using Selenium WebDriver, Java, TestNG, and Page Object Model to improve regression test efficiency.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>API Testing Automation</h3>
+
+<p>
+Implemented API automation using REST Assured and Postman to validate backend services and improve API reliability.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Flask Automation Simulator</h3>
+
+<p>
+A Python Flask web application that simulates UI automation actions such as click and double-click for demonstration purposes.
+</p>
+
+</div>
+
+</section>
+
+<section id="experience">
+
+<h2>Professional Experience</h2>
+
+<div class="card">
+
+<h3>Automation Engineer | UST</h3>
+
+<p>
+Worked on enterprise applications designing Selenium automation frameworks, executing API tests, and supporting CI/CD testing workflows using Git and Maven.
+</p>
+
+</div>
 
 </section>
 
 <section id="contact">
+
 <h2>Contact</h2>
 
+<div class="card">
+
 <p>Email: anjalikrishna.maya@gmail.com</p>
+
 <p>GitHub: github.com/anjalikrishna1508</p>
-<p>LinkedIn:https://www.linkedin.com/in/anjali-krishna-m-6137b1228 </p>
+
+<p>LinkedIn: linkedin.com/in/anjali-krishna-m</p>
+
+<p>Location: Dubai, UAE</p>
+
+</div>
 
 </section>
 
 <footer>
+
 <p>© 2026 Anjali Krishna</p>
+
 </footer>
 
 </body>
