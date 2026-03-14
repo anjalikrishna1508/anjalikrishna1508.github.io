@@ -95,7 +95,31 @@ box-shadow: 0 0 10px #0ea5e9;
 box-shadow: 0 0 20px #38bdf8, 0 0 40px #38bdf8;
 transform: scale(1.05);
 }  
-  
+
+.contact-box {
+text-align: center;
+}
+
+.contact-links {
+margin: 15px 0;
+}
+
+.contact-btn {
+display: inline-block;
+margin: 10px;
+padding: 10px 18px;
+border-radius: 6px;
+text-decoration: none;
+color: #38bdf8;
+border: 1px solid #38bdf8;
+transition: 0.3s;
+}
+
+.contact-btn:hover {
+background: #38bdf8;
+color: black;
+box-shadow: 0 0 10px #38bdf8, 0 0 20px #38bdf8;
+}  
 
 footer{
 text-align:center;
@@ -280,19 +304,23 @@ Created a PHP-based system to alert users about accident-prone zones and provide
 
 <section id="contact">
 
-<h2>Contact</h2>
+<div class="card contact-box">
 
-<div class="card">
+<p><b>Email:</b> anjalikrishna.maya@gmail.com</p>
 
-<p>Email: anjalikrishna.maya@gmail.com</p>
+<div class="contact-links">
 
-<p><button class= "glow-btn">GitHub: github.com/anjalikrishna1508</button></p>
+<a href="https://github.com/anjalikrishna1508" target="_blank" class="contact-btn">
+GitHub
+</a>
 
-<p>
-<button class= "glow-btn">  LinkedIn: linkedin.com/in/anjali-krishna-m</button>
-</p>
+<a href="https://linkedin.com/in/anjali-krishna-m" target="_blank" class="contact-btn">
+LinkedIn
+</a>
 
-<p>Location: Dubai, UAE</p>
+</div>
+
+<p><b>Location:</b> Dubai, UAE</p>
 
 </div>
 
